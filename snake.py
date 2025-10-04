@@ -178,7 +178,8 @@ async def main():
         
         # CRITICAL: This allows the browser to process other tasks
         await asyncio.sleep(0)
-    
+        
+    # quit
     pygame.quit()
 
 # For web deployment, just call main() without asyncio.run()
